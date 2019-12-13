@@ -16,7 +16,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-@RegisterService(value = "rso1920-fileStorage")
+@RegisterService(value = "prpo-fileStorage")
 @OpenAPIDefinition(info = @Info(title = "FileStorage Rest API", version = "v1", contact = @Contact(), license = @License(), description = "File storage API that communicates with AWS S3"), servers = @Server(url ="http://localhost:8081/v1"))
 @ApplicationPath("/v1")
 public class fileStorageApi extends Application {

@@ -1,5 +1,5 @@
 kumuluzee:
-  name: rso1920-fileStorage
+  name: prpo-fileStorage
   env:
     name: dev
   version: 1.0.0
